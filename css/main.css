@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Denk One', sans-serif;
+  font-family: "Denk One", sans-serif;
   line-height: 1.5;
 }
 
@@ -38,7 +38,9 @@ ol {
   gap: 1rem;
   padding: 1rem;
   margin: 0;
+}
 
+ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -56,7 +58,7 @@ li {
 }
 
 li a {
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
   text-decoration: none;
   color: #fff;
 
@@ -66,5 +68,5 @@ li a {
 }
 
 p {
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
 }
