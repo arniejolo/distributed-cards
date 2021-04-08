@@ -27,7 +27,7 @@ h1, h2 {
 }
 
 h2 {
-  text-align: left;
+  padding: 0;
 }
 
 ol {
@@ -38,7 +38,7 @@ ol {
   justify-content: center;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  padding: 0 1rem;
+  padding: 1rem;
   margin: 0;
 }
 
@@ -46,7 +46,7 @@ li {
   background-color: #ede3db;
   border: 2px solid #623b0c;
   border-radius: 8px;
-  padding: .5em .75em .6em;
+  padding: 0 1rem 1rem 1rem;
 
   display: flex;
   flex-direction: column;
@@ -57,7 +57,6 @@ li {
 li a {
   text-decoration: none;
   color: #fff;
-
   background-color: #623b0c;
   padding: .5em .75em .6em;
   border-radius: 8px;
