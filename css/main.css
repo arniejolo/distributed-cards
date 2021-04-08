@@ -47,13 +47,14 @@ li {
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: lightblue;
 }
 
 li a {
   text-decoration: none;
   color: #fff;
-  text-weight: lighter;
 
   background-color: #623b0c;
   padding: .5em .75em .6em;
