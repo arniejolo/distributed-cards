@@ -20,7 +20,7 @@ img {
 }
 
 h1, h2 {
-  font-family: 'Denk One', sans-serif;
+  font-family: "Denk One", sans-serif;
   color: #623b0c;
   padding: 1rem;
 }
@@ -32,6 +32,9 @@ ol {
   justify-content: center;
   gap: 1rem;
   padding: 1rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 li {
