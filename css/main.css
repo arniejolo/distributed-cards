@@ -38,7 +38,7 @@ ol {
   justify-content: center;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  padding: 1rem;
+  padding: 0 1rem;
   margin: 0;
 }
 
