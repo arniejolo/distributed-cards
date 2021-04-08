@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Georgia";
+  font-family: 'Denk One', sans-serif;
   line-height: 1.5;
 }
 
@@ -58,4 +58,8 @@ li a {
   background-color: #623b0c;
   padding: .5em .75em .6em;
   border-radius: 8px;
+}
+
+p {
+  font-family: "Georgia", serif;
 }
