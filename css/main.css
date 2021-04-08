@@ -24,6 +24,11 @@ h1, h2 {
   color: #623b0c;
   padding: 1rem;
   margin: 0;
+  background-color: blue;
+}
+
+h2 {
+  text-align: left;
 }
 
 ol {
@@ -47,11 +52,11 @@ li {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 li a {
+  font-family: "Georgia", serif;
   text-decoration: none;
   color: #fff;
 
