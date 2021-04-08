@@ -8,3 +8,16 @@ html {
 }
 
 /* font-family: 'Denk One', sans-serif; */
+
+body {
+  background-color: #f5f2f0;
+}
+
+h1, h2 {
+  font-family: 'Denk One', sans-serif;
+  color: #623b0c;
+}
+
+ol {
+  list-style-type: none;
+}
