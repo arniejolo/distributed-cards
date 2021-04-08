@@ -36,5 +36,9 @@ ol {
 
 li {
   background-color: #ede3db;
+  padding: .5em .75em .6em;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
