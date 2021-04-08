@@ -49,7 +49,6 @@ li {
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: lightblue;
 }
 
 li a {
