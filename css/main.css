@@ -39,6 +39,7 @@ ol {
 
 li {
   background-color: #ede3db;
+  border: 2px solid #623b0c;
   padding: .5em .75em .6em;
 
   display: flex;
