@@ -27,7 +27,7 @@ h1, h2 {
 }
 
 h2 {
-  padding: 0;
+  padding: 1rem 1rem 1rem 0;
 }
 
 ol {
@@ -46,7 +46,7 @@ li {
   background-color: #ede3db;
   border: 2px solid #623b0c;
   border-radius: 8px;
-  padding: 0 1rem 1rem 1rem;
+  padding: 0 1rem 1rem;
 
   display: flex;
   flex-direction: column;
