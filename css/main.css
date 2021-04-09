@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Denk One", sans-serif;
+  font-family: 'Denk One', sans-serif;
   line-height: 1.5;
 }
 
@@ -63,8 +63,9 @@ li a {
   color: #fff;
 
   background-color: #623b0c;
-  padding: .5em .75em .6em;
+  padding: .5em 7.5em .6em;
   border-radius: 8px;
+  text-align: left;
 }
 
 p {
