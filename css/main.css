@@ -20,7 +20,7 @@ img {
 }
 
 h1, h2 {
-  font-family: "Denk One", sans-serif;
+  font-family: 'Denk One', sans-serif;
   color: #623b0c;
 }
 
@@ -41,7 +41,7 @@ ol {
   justify-content: center;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  padding: 1rem;
+  padding: .5em .75em .6em;
   margin: 0;
 }
 
@@ -49,12 +49,11 @@ li {
   background-color: #ede3db;
   border: 2px solid #623b0c;
   border-radius: 8px;
-  padding: 0 1rem 1rem;
+  padding: .5em .75em .6em;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
 }
 
 li a {
@@ -63,7 +62,7 @@ li a {
   color: #fff;
 
   background-color: #623b0c;
-  padding: .5em 7.5em .6em;
+  padding: .5em .75em .6em;
   border-radius: 8px;
   text-align: left;
 }
