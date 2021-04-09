@@ -54,6 +54,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: stretch;
 }
 
 li a {
