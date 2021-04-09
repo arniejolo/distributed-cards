@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Denk One", sans-serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
@@ -38,7 +38,7 @@ ol {
   flex-wrap: wrap;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  padding: 0 1rem 1rem 1rem;
+  padding: 0.5rem 1rem 1rem;
   margin: 0;
 }
 
