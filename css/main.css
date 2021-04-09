@@ -36,12 +36,11 @@ ol {
   display: flex;
   display: grid;
   justify-content: center;
-  flex-grow: 1;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   padding: .5rem 1rem 1rem;
   margin: 0;
-  align-items: stretch;
+  flex-grow: 1;
 }
 
 li {
@@ -55,6 +54,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  flex-grow: 1;
 }
 
 li a {
