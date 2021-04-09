@@ -41,6 +41,7 @@ ol {
   gap: 1rem;
   padding: .5rem 1rem 1rem;
   margin: 0;
+  align-items: stretch;
 }
 
 li {
@@ -54,7 +55,6 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: stretch;
 }
 
 li a {
