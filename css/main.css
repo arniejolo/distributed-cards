@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia, serif;
   font-family: "Denk One", sans-serif;
   line-height: 1.5;
 }
@@ -23,12 +22,15 @@ img {
 h1, h2 {
   font-family: "Denk One", sans-serif;
   color: #623b0c;
-  padding: 1rem;
+}
+
+h1 {
   margin: 0;
+  padding: 1rem;
 }
 
 h2 {
-  padding: 1rem 1rem 1rem 0;
+  padding: 0;
 }
 
 ol {
@@ -56,10 +58,15 @@ li {
 }
 
 li a {
+  font-family: Georgia, serif;
   text-decoration: none;
   color: #fff;
 
   background-color: #623b0c;
   padding: .5em .75em .6em;
   border-radius: 8px;
+}
+
+p {
+  font-family: Georgia, serif;
 }
