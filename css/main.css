@@ -68,9 +68,11 @@ li a {
 
   display: flex;
   flex-grow: 1;
+  align-items: stretch;
 }
 
 p {
   font-family: Georgia, serif;
   flex-grow: 1;
+  align-items: stretch;
 }
