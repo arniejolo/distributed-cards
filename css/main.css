@@ -23,6 +23,7 @@ main {
 img {
   width: 100%;
   flex-grow: 1;
+  align-items: center;
 }
 
 h1, h2 {
