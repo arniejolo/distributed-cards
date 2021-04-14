@@ -45,9 +45,6 @@ ol {
   margin: 1.5rem 0;
   gap: 1rem;
 
-  display: flex;
-  justify-content: center;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -61,10 +58,9 @@ li {
   width: 100%;
 
   display: flex;
-  flex-wrap: wrap;
   flex-grow: 1;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 p {
