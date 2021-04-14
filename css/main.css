@@ -36,6 +36,11 @@ h1 {
   padding: 0;
 }
 
+h2 {
+  margin: 0;
+  padding: 0.5em 0;
+}
+
 ol {
   list-style-type: none;
   padding: 1.5rem 0;
@@ -58,7 +63,6 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 li a {
@@ -77,5 +81,4 @@ p {
 
   display: flex;
   flex-grow: 1;
-
 }
