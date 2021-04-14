@@ -36,7 +36,7 @@ h1 {
 
 h2 {
   margin: 0;
-  padding: 0;
+  padding: 0 0 1rem;
 }
 
 ol {
@@ -48,10 +48,9 @@ ol {
 
   display: flex;
   justify-content: center;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
-
-  background-color: pink;
 }
 
 li {
