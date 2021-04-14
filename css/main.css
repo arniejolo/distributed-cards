@@ -58,8 +58,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex-wrap: wrap;
-  flex-grow: 1;
+
 }
 
 li a {
@@ -75,4 +74,8 @@ li a {
 p {
   font-family: Georgia, serif;
   text-align: left;
+
+  display: flex;
+  flex-grow: 1;
+
 }
