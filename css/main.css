@@ -66,6 +66,7 @@ li {
 p {
   display: flex;
   flex-grow: 1;
+
 }
 
 a {
@@ -74,4 +75,8 @@ a {
   background-color: #623b0c;
   border-radius: 8px;
   padding: .5em .75em .6em;
+}
+
+li img {
+  margin:  0 0 1em;
 }
