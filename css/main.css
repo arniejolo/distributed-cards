@@ -52,13 +52,12 @@ li {
   border: 2px solid #623b0c;
   border-radius: 8px;
   margin: 0;
-  padding: 0 1rem 1rem;
+  padding: 0 1em 1em;
   width: 100%;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  justify-content: center;
   flex-grow: 1;
 }
 
@@ -75,4 +74,5 @@ li a {
 p {
   font-family: Georgia, serif;
   text-align: left;
+  padding: .5em .75em .6em;
 }
