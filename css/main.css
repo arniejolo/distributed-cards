@@ -16,14 +16,11 @@ body {
 }
 
 main {
-  margin: 0;
-  padding: 1rem;
+  margin: 0 auto;
 }
 
 img {
   width: 100%;
-  flex-grow: 1;
-  align-items: center;
 }
 
 h1, h2 {
@@ -34,6 +31,7 @@ h1, h2 {
 h1 {
   margin: 0;
   padding: 0;
+  background-color: red;
 }
 
 h2 {
@@ -47,7 +45,11 @@ ol {
   margin: 0;
   gap: 1rem;
 
-display: flex;
+
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 
   background-color: pink;
 }
@@ -61,24 +63,20 @@ li {
   width: 100%;
 
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
 }
 
-li a {
-  font-family: Georgia, serif;
-  text-decoration: none;
-  color: #fff;
-
-  background-color: #623b0c;
-  padding: .5em .75em .6em;
-  border-radius: 8px;
-}
-
 p {
-  font-family: Georgia, serif;
-  text-align: left;
-
   display: flex;
   flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #623b0c;
+  border-radius: 8px;
+  padding: .5em .75em .6em;
 }
